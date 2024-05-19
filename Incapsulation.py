@@ -14,4 +14,7 @@ class Test():
 test = Test()
 print(test.public)
 
-print(test.get_private)
+print(test.get_private())
+
+test.set_private("Private attribute has been received")
+print(test.get_private())
