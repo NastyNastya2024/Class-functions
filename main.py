@@ -10,4 +10,3 @@ elif a < b:
 else:
     print("a равно b")
 
-print("Это нам не нужно")
